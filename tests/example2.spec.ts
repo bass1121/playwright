@@ -18,6 +18,7 @@ async function clickGetStarted(page: Page) {
 }
 
 test.describe('Playwright website', () => {
+
     test('has title', async () => {
         await homePage.assertPageTitle();
     });
